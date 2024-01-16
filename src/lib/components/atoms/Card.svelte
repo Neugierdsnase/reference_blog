@@ -18,24 +18,24 @@
 
 <svelte:element
 	this={tag}
-	class="card {additionalClass}"
+	class="{additionalClass}"
 	{...linkProps}
 	data-sveltekit-preload-data
 	{...$$restProps}
 >
 	{#if $$slots.image}
-		<div class="image">
+		<div>
 			<slot name="image" />
 		</div>
 	{/if}
-	<div class="body">
+	<div>
 		<div class="content">
 			<slot name="content" />
 		</div>
 		{#if $$slots.footer}
-			<div class="footer">
+			<footer>
 				<slot name="footer" />
-			</div>
+			</footer>
 		{/if}
 	</div>
 </svelte:element>

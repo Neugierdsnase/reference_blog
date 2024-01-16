@@ -1,10 +1,3 @@
-<script>
-	import Header from '$lib/components/organisms/Header.svelte';
-	import Footer from '$lib/components/organisms/Footer.svelte';
-</script>
-
-<Header showBackground />
-
 <main>
 	<div class="error-page">
 		<div class="container">
@@ -15,5 +8,3 @@
 		</div>
 	</div>
 </main>
-
-<Footer />
