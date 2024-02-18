@@ -10,6 +10,7 @@
     "@types/prismjs": "^1.26.3",
     "@typescript-eslint/parser": "^6.19.0",
     "autoprefixer": "^10.4.16",
+    "daisyui": "latest",
     "dateformat": "^5.0.3",
     "eslint": "^8.28.0",
     "eslint-config-prettier": "^9",
@@ -53,6 +54,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@phosphor-icons/web": "^2.0.3"
+    "@phosphor-icons/web": "^2.0.3",
+    "theme-change": "^2.5.0"
   }
 }
